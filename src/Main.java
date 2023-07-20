@@ -16,12 +16,10 @@ public class Main {
         int android = 1;
         int currentYear = LocalDate.now().getYear();
         if (systemType == iOs && year < currentYear) {
-            System.out.println("Установите версию приложения для iOS по ссылке");
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
         } else if (systemType == iOs) {
             System.out.println("Установите версию приложения для iOS по ссылке");
         } else if (year < currentYear && systemType == android) {
-            System.out.println("Установите версию приложения для Android по ссылке");
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
         } else if (systemType == android){
             System.out.println("Установите версию приложения для Android по ссылке");
